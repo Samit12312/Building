@@ -36,7 +36,7 @@ namespace Building
         }
         public override string ToString() 
         {
-            return $"building address : {buildingaddress} /napartments {apartments}";
+            return $"building address : {buildingaddress} \napartments {apartments}";
         }
     }
 }

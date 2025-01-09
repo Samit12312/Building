@@ -19,7 +19,7 @@ namespace Building
         }
         public override string ToString()
         {
-            return $"town is {town}/nstreet is {street} /nnumber: {number}";
+            return $"town is {town}\nstreet is {street} \nnumber: {number}";
         }
     }
 }

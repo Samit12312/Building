@@ -56,7 +56,7 @@ namespace Building
         public void PrintBuildingFee()
         {
             double fee = CalculateBuildingFee();
-            Console.WriteLine($"Owner: {name}, Apartment Area: {CalculateBuildingFee()}, Fee: {fee:F2} ₪");
+            Console.WriteLine($"Owner: {name}, Apartment Area: {CalculateBuildingFee()}, Fee: {fee} ₪");
         }
         public string apartmentcatagory() 
         {
@@ -94,7 +94,7 @@ namespace Building
                     rooms += Rooms;
                 }
             }
-            return $"Owner: {this.name}/nRooms: {rooms}";
+            return $"Owner: {this.name}\nRooms: {rooms}";
         }
     }
 }
